@@ -1,0 +1,117 @@
+.row > div:not(.col-5):not(.col-8):not(.col-9):not(.col-10):not(.col-11) {
+    margin-top:30px;
+}
+
+.row > .col-1:nth-child(-n+12){
+    margin-top: 0 !important;
+}
+
+.row > .col-2:nth-child(-n+6){
+    margin-top: 0 !important;
+}
+
+.row > .col-3:nth-child(-n+4){
+    margin-top: 0 !important;
+}
+
+.row > .col-4:nth-child(-n+3){
+    margin-top: 0 !important;
+}
+
+.row > .col-6:nth-child(-n+2){
+    margin-top: 0 !important;
+}
+
+.row > .col-12:first-child{
+    margin-top: 0 !important;
+}
+
+@media (min-width:576px) {
+    .row > div:not(.col-sm-5):not(.col-sm-8):not(.col-sm-9):not(.col-sm-10):not(.col-sm-11) {
+        margin-top:30px;
+    }
+    
+    .row > .col-sm-1:nth-child(-n+12){
+        margin-top: 0 !important;
+    }
+    
+    .row > .col-sm-2:nth-child(-n+6){
+        margin-top: 0 !important;
+    }
+    
+    .row > .col-sm-3:nth-child(-n+4){
+        margin-top: 0 !important;
+    }
+    
+    .row > .col-sm-4:nth-child(-n+3){
+        margin-top: 0 !important;
+    }
+    
+    .row > .col-sm-6:nth-child(-n+2){
+        margin-top: 0 !important;
+    }
+
+    .row > .col-sm-12:first-child{
+        margin-top: 0 !important;
+    }
+}
+
+@media (min-width:768px) {
+    .row > div:not(.col-md-5):not(.col-md-8):not(.col-md-9):not(.col-md-10):not(.col-md-11) {
+        margin-top:30px;
+    }
+    
+    .row > .col-md-1:nth-child(-n+12){
+        margin-top: 0 !important;
+    }
+    
+    .row > .col-md-2:nth-child(-n+6){
+        margin-top: 0 !important;
+    }
+    
+    .row > .col-md-3:nth-child(-n+4){
+        margin-top: 0 !important;
+    }
+    
+    .row > .col-md-4:nth-child(-n+3){
+        margin-top: 0 !important;
+    }
+    
+    .row > .col-md-6:nth-child(-n+2){
+        margin-top: 0 !important;
+    }
+
+    .row > .col-md-12:first-child{
+        margin-top: 0 !important;
+    }
+}
+
+@media (min-width:992px) {
+    .row > div:not(.col-lg-5):not(.col-lg-8):not(.col-lg-9):not(.col-lg-10):not(.col-lg-11) {
+        margin-top:30px;
+    }
+    
+    .row > .col-lg-1:nth-child(-n+12){
+        margin-top: 0 !important;
+    }
+    
+    .row > .col-lg-2:nth-child(-n+6){
+        margin-top: 0 !important;
+    }
+    
+    .row > .col-lg-3:nth-child(-n+4){
+        margin-top: 0 !important;
+    }
+    
+    .row > .col-lg-4:nth-child(-n+3){
+        margin-top: 0 !important;
+    }
+    
+    .row > .col-lg-6:nth-child(-n+2){
+        margin-top: 0 !important;
+    }
+
+    .row > .col-lg-12:first-child{
+        margin-top: 0 !important;
+    }
+}
